@@ -1,9 +1,10 @@
-import { Car } from './car/car';
+import { Mcar } from './car/car';
 const { info } = console;
 
-const car = new Car("a engine name", "Stivenson", 29);
+const car = new Mcar.Car("a engine name", 29);
 
-car.engine = "other engine name";
+car.engine = "oother engine name";
 
 info(`Car: ${car.engine}`);
 info("a Car Function: " + car.aFunction(2, 4));
+info("a Car Interface: " + car.klm(2));
