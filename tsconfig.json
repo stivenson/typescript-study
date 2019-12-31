@@ -3,5 +3,6 @@
         "target": "es5",
         "strictNullChecks": false,
         "sourceMap": true,
+        "lib": ["es6", "dom"]
     }
 }

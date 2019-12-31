@@ -1,0 +1,23 @@
+{
+  "name": "typescript-study",
+  "version": "1.0.0",
+  "description": "- node v12.14.x\r - npm v6.13.x",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stivenson/typescript-study.git"
+  },
+  "author": "stivenson.rpm@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stivenson/typescript-study/issues"
+  },
+  "homepage": "https://github.com/stivenson/typescript-study#readme"
+}
