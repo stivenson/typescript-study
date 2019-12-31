@@ -11,3 +11,10 @@ test('Car Module - name', () => {
     objCar._age = 15;
     expect(objCar._age).toBe(15);
 });
+
+test('Test Error - Example', () => {
+    const returnError = () => {
+            throw new Error("a throw");
+    };
+    expect(returnError).toThrow();
+});

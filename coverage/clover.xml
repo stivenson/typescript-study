@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1577811813335" clover="3.2.0">
+  <project timestamp="1577811813335" name="All files">
+    <metrics statements="22" coveredstatements="18" conditionals="6" coveredconditionals="4" methods="10" coveredmethods="6" elements="38" coveredelements="28" complexity="0" loc="22" ncloc="22" packages="2" files="2" classes="2"/>
+    <package name="car">
+      <metrics statements="17" coveredstatements="15" conditionals="6" coveredconditionals="4" methods="7" coveredmethods="5"/>
+      <file name="index.ts" path="C:\Users\srincon\projects\typescript-study\car\index.ts">
+        <metrics statements="17" coveredstatements="15" conditionals="6" coveredconditionals="4" methods="7" coveredmethods="5"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="1" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="car.interfaces-generic">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="vehicle.ts" path="C:\Users\srincon\projects\typescript-study\car\interfaces-generic\vehicle.ts">
+        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
