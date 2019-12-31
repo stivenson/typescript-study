@@ -9,11 +9,12 @@ export module Mcar {
     export class Car extends Vehicle implements Drive, Conssecionaire<Chevrolet> {
     
         constructor(
-            public _engine: string,
-            private age: number
+            private _engine: string,
+            public _age: number
             ) {
             super();
             this.engine = _engine;
+            this._age = _age;
         }
     
         get engine() {
