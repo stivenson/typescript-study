@@ -1,3 +1,3 @@
 export default interface Drive {
-    klm(num: number): void;
+    klm(num: number): number;
 }
